@@ -1,0 +1,72 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    font-family: Arial, sans-serif;
+} */
+
+.floating-buttons {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 1000;
+    background-color: rgb(0, 0, 0);
+}
+
+.button-float {
+    display: block;
+    margin: 5px;
+    padding: 15px 15px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.button-float:hover {
+    background-color: #d2c1ec;
+}
+
+/* @media (min-width: 60em) {
+    body {
+        padding: 5rem;
+    }
+} */
+
+@font-face {
+    font-family: "Bandeins Strange Variable";
+    src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/85648/BandeinsStrangeVariableGX.ttf");
+}
+.h1-styles {
+    font-family: "Bandeins Strange Variable";
+    font-variation-settings: "wdth" 50, "wght" 800;
+    /* font-size: 3rem; */
+    transition: 5s ease;
+    color: black;
+}
+
+.h1-styles:hover {
+    font-variation-settings: "wdth" 100, "wght" 400;
+    color: white;
+}
+
+.h2-styles {
+    font-family: "Bandeins Strange Variable";
+    font-variation-settings: "wdth" 10, "wght" 800;
+    font-size: 8rem;
+    transition: 5s ease;
+    color: white;
+}
+
+.h2-styles:hover {
+    font-variation-settings: "wdth" 100, "wght" 400;
+
+    color: rgb(53, 29, 171);
+}
